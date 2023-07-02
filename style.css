@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
 
 body {
   width: 850px;
   font-family: sans-serif;
 }
-/* Hero Section */
+
 div.Hero {
 display: flex;
 justify-content: center;
@@ -17,7 +16,7 @@ h1 {
   color:white;
   font-size: 75px;
 }
-/* Contact Section */
+
 section {
   display: flex;
   justify-content: space-around;
