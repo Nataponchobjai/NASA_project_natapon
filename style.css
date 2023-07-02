@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+body {
+  width: 850px;
+  font-family: sans-serif;
+}
+/* Hero Section */
+div.Hero {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 450px;
+background-image: url("nasasuper.jpeg");
+
+}
+h1 {
+  color:white;
+  font-size: 75px;
+}
+/* Contact Section */
+section {
+  display: flex;
+  justify-content: space-around;
+  height: 324px;
+  background-color: gainsboro;
+  font-family: Montserrat;
+}
+p {
+  font-family: sans-serif;
+}
+button { 
+  background-color: #4D4D4D;
+  color: white;
+  font-style: bold;
+  font-size: large;
+  width: 70px;
+  height: 35px;
+  border-width: 0px;
+}
+textarea {
+  font-family: sans-serif;
+  border-width: 0px;
+  padding: 7px;
+
+}
+input {
+  border-width: 0px;
+  padding: 7px;
+  margin-bottom: 15px;
+}
+p.contact-form {
+  margin: 0px;
+  margin-bottom: 5px;
+}
