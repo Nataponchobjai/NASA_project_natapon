@@ -9,12 +9,19 @@ display: flex;
 justify-content: center;
 align-items: center;
 height: 450px;
-background-image: url("nasasuper.jpeg");
+
 
 }
 h1 {
-  color:white;
-  font-size: 75px;
+  color:rgb(254, 252, 252);
+  font-size: 80px;  
+  width: 40px;
+  margin-top: 60px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+
+
 }
 
 section {
@@ -50,4 +57,12 @@ input {
 p.contact-form {
   margin: 0px;
   margin-bottom: 5px;
+}
+.landing{
+  background-color: #fbfafa;
+  background-image: url('https://spaceplace.nasa.gov/supernova/en/supernova3.en.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 330px 400px;
 }
